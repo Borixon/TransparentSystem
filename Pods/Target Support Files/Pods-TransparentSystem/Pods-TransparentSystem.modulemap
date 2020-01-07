@@ -1,0 +1,6 @@
+framework module Pods_TransparentSystem {
+  umbrella header "Pods-TransparentSystem-umbrella.h"
+
+  export *
+  module * { export * }
+}

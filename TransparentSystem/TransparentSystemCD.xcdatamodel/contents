@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="15702" systemVersion="18F132" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="TransparentSystemCD">
+    <entity name="LogAction" representedClassName="LogAction" syncable="YES">
+        <attribute name="group" attributeType="String"/>
+        <attribute name="name" attributeType="String"/>
+        <attribute name="timeStamp" attributeType="Date" usesScalarValueType="NO"/>
+        <attribute name="type" attributeType="String"/>
+        <attribute name="value" attributeType="String"/>
+    </entity>
+    <entity name="LogException" representedClassName="LogException" syncable="YES">
+        <attribute name="message" attributeType="String"/>
+        <attribute name="name" attributeType="String"/>
+        <attribute name="priority" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="timeStamp" attributeType="Date" usesScalarValueType="NO"/>
+    </entity>
+    <entity name="LogTime" representedClassName="LogTime" syncable="YES">
+        <attribute name="endTime" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
+        <attribute name="startTime" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
+    </entity>
+    <elements>
+        <element name="LogAction" positionX="-36" positionY="9" width="128" height="120"/>
+        <element name="LogException" positionX="-63" positionY="-18" width="128" height="105"/>
+        <element name="LogTime" positionX="-54" positionY="0" width="128" height="75"/>
+    </elements>
+</model>
